@@ -1,29 +1,23 @@
 import './globals.css';
-import './media-fix.css';
 
 export const metadata = {
   metadataBase: new URL('https://maxitec.net.br'),
-  title: {
-    default: 'Maxitec | Inspeção de Impressão para Embalagens',
-    template: '%s | Maxitec'
-  },
-  description:
-    'Equipamentos Maxitec para inspeção de impressão em embalagens, rótulos e adesivos flexíveis. Mais controle, menos perdas e mais qualidade na produção.',
+  title: 'Maxitec | Controle e Inspeção para Impressão Industrial',
+  description: 'Maxivision Digital e soluções Maxitec para inspeção de impressão em embalagens, rótulos e flexografia. Veja equipamentos reais em operação e fale direto com a equipe.',
   keywords: [
-    'inspeção de impressão',
-    'vídeo inspeção',
+    'Maxitec',
     'Maxivision Digital',
+    'inspeção de impressão',
+    'flexografia',
     'embalagens flexíveis',
-    'rótulos',
-    'estroboscópio LED',
-    'impressão industrial'
+    'vídeo inspeção',
+    'estroboscópio LED'
   ],
   openGraph: {
     type: 'website',
     locale: 'pt_BR',
-    title: 'Maxitec | Tecnologia para enxergar melhor a sua impressão',
-    description:
-      'Soluções para inspeção visual em tempo real, redução de perdas e aumento da qualidade no processo de impressão.',
+    title: 'Maxitec | Veja a impressão antes do erro',
+    description: 'Tecnologia nacional para controle e inspeção industrial. Equipamentos reais, aplicações reais e contato direto pelo WhatsApp.',
     images: ['/media/maxivision-digital.webp']
   },
   robots: { index: true, follow: true }
