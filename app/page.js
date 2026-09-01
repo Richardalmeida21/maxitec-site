@@ -47,7 +47,7 @@ export default function Home() {
     <main>
       <header className="site-header">
         <a className="brand" href="#inicio" aria-label="Maxitec - início">
-          <Image src="/media/logo-maxitec-transparent.png" alt="Maxitec" width={900} height={230} priority/>
+          <Image src="/media/logo-maxitec.webp" alt="Maxitec" width={900} height={230} priority/>
         </a>
         <nav className={menuOpen ? 'main-nav open' : 'main-nav'}>
           <a href="#maxivision" onClick={()=>setMenuOpen(false)}>Maxivision</a>
@@ -75,7 +75,7 @@ export default function Home() {
         </div>
 
         <div className="hero-media" aria-label="Equipamento Maxitec em operação">
-          <video autoPlay muted loop playsInline preload="metadata" poster="/media/maxivision-real.webp">
+          <video autoPlay muted loop playsInline preload="metadata" poster="/media/maxivision-digital.webp">
             <source src="/media/img_1918.mp4" type="video/mp4"/>
           </video>
           <div className="hero-media-shade"/>
@@ -109,7 +109,7 @@ export default function Home() {
         <div className="product-visual">
           <div className="product-number">01</div>
           <div className="product-frame">
-            <Image src="/media/maxivision-real.webp" alt="Maxivision Digital - equipamento real Maxitec" width={1200} height={1365} sizes="(max-width: 900px) 100vw, 55vw"/>
+            <Image src="/media/maxivision-digital.webp" alt="Maxivision Digital - equipamento real Maxitec" width={1200} height={1365} sizes="(max-width: 900px) 100vw, 55vw"/>
           </div>
           <div className="product-spec spec-a"><b>CÂMERA</b><span>VISÃO DO PROCESSO</span></div>
           <div className="product-spec spec-b"><b>LED</b><span>ILUMINAÇÃO ESTROBOSCÓPICA</span></div>
@@ -137,7 +137,7 @@ export default function Home() {
 
         <div className="video-wall">
           <article className="video-primary">
-            <video controls muted loop playsInline preload="metadata" poster="/media/maxivision-real.webp"><source src="/media/img_1918.mp4" type="video/mp4"/></video>
+            <video controls muted loop playsInline preload="metadata" poster="/media/maxivision-digital.webp"><source src="/media/img_1918.mp4" type="video/mp4"/></video>
             <div className="video-caption"><span>01 / INSPEÇÃO EM PRODUÇÃO</span><b>Registro real de operação</b></div>
           </article>
           <article className="video-secondary video-a">
@@ -170,7 +170,7 @@ export default function Home() {
           <a className="text-action dark" target="_blank" rel="noreferrer" href={whatsappUrl('Olá, Maxitec. Quero conhecer melhor a empresa e as soluções disponíveis para meu processo de impressão.')}>CONHECER A SOLUÇÃO CERTA PARA MIM <Arrow/></a>
         </div>
         <div className="legacy-map">
-          <Image src="/media/20-anos-presenca.webp" width={900} height={1270} alt="20 anos Maxitec - presença nacional e internacional" sizes="(max-width: 900px) 100vw, 48vw"/>
+          <Image src="/media/20-anos.webp" width={900} height={1270} alt="20 anos Maxitec - presença nacional e internacional" sizes="(max-width: 900px) 100vw, 48vw"/>
         </div>
       </section>
 
@@ -187,7 +187,7 @@ export default function Home() {
       </section>
 
       <footer>
-        <div className="footer-logo"><Image src="/media/logo-maxitec-transparent.png" alt="Maxitec" width={900} height={230}/></div>
+        <div className="footer-logo"><Image src="/media/logo-maxitec.webp" alt="Maxitec" width={900} height={230}/></div>
         <div className="footer-copy">TECNOLOGIA PARA CONTROLE E INSPEÇÃO INDUSTRIAL</div>
         <a target="_blank" rel="noreferrer" href="https://www.instagram.com/maxitec.br/">INSTAGRAM ↗</a>
         <a target="_blank" rel="noreferrer" href={whatsappUrl(generalMessage)}>WHATSAPP ↗</a>
