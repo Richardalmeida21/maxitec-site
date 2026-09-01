@@ -47,7 +47,7 @@ export default function Home() {
     <main>
       <header className="site-header">
         <a className="brand" href="#inicio" aria-label="Maxitec - início">
-          <Image src="/media/logo-maxitec.png" alt="Maxitec" width={1024} height={263} priority/>
+          <Image src="/media/logo-maxitec.svg" alt="Maxitec" width={792} height={156} priority/>
         </a>
         <nav className={menuOpen ? 'main-nav open' : 'main-nav'}>
           <a href="#maxivision" onClick={()=>setMenuOpen(false)}>Maxivision</a>
@@ -187,7 +187,7 @@ export default function Home() {
       </section>
 
       <footer>
-        <div className="footer-logo"><Image src="/media/logo-maxitec.png" alt="Maxitec" width={1024} height={263}/></div>
+        <div className="footer-logo"><Image src="/media/logo-maxitec.svg" alt="Maxitec" width={792} height={156}/></div>
         <div className="footer-copy">TECNOLOGIA PARA CONTROLE E INSPEÇÃO INDUSTRIAL</div>
         <a target="_blank" rel="noreferrer" href="https://www.instagram.com/maxitec.br/">INSTAGRAM ↗</a>
         <a target="_blank" rel="noreferrer" href={whatsappUrl(generalMessage)}>WHATSAPP ↗</a>
