@@ -132,20 +132,20 @@ export default function Home() {
       <section className="operation" id="operacao">
         <div className="operation-head">
           <div><span className="kicker light">SEM MOCKUP. SEM RENDER.</span><h2>É assim que a<br/>Maxitec trabalha<br/><em>na prática.</em></h2></div>
-          <p>Os vídeos abaixo são registros reais enviados pela Maxitec. Dê play, veja a linha em movimento e entenda por que inspeção visual precisa acontecer durante a produção.</p>
+          <p>Os vídeos abaixo são registros reais enviados pela Maxitec. Veja a linha em movimento e entenda por que inspeção visual precisa acontecer durante a produção.</p>
         </div>
 
         <div className="video-wall">
           <article className="video-primary">
-            <video controls muted loop playsInline preload="metadata" poster="/media/maxivision-digital.webp"><source src="/media/img_1918.mp4" type="video/mp4"/></video>
+            <video autoPlay muted loop playsInline preload="metadata" poster="/media/maxivision-digital.webp"><source src="/media/img_1918.mp4" type="video/mp4"/></video>
             <div className="video-caption"><span>01 / INSPEÇÃO EM PRODUÇÃO</span><b>Registro real de operação</b></div>
           </article>
           <article className="video-secondary video-a">
-            <video controls muted loop playsInline preload="metadata"><source src="/media/img_0771.mp4" type="video/mp4"/></video>
+            <video autoPlay muted loop playsInline preload="metadata"><source src="/media/img_0771.mp4" type="video/mp4"/></video>
             <div className="video-caption"><span>02 / PROCESSO INDUSTRIAL</span><b>Aplicação em linha</b></div>
           </article>
           <article className="video-secondary video-b">
-            <video controls muted loop playsInline preload="metadata"><source src="/media/img_3192.mp4" type="video/mp4"/></video>
+            <video autoPlay muted loop playsInline preload="metadata"><source src="/media/img_3192.mp4" type="video/mp4"/></video>
             <div className="video-caption"><span>03 / DETALHE DE CAMPO</span><b>Equipamento em uso</b></div>
           </article>
         </div>
