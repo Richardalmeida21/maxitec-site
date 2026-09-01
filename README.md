@@ -31,3 +31,7 @@ O WhatsApp comercial está configurado como `5515997491884` em `app/page.js`.
 - Botões de WhatsApp em pontos estratégicos
 - SEO e Open Graph básicos
 - Layout responsivo para desktop, tablet e celular
+
+## Build atual
+
+Redesign editorial/industrial aplicado em 01/09/2026. Este commit também força um novo deploy na Vercel para garantir que a versão de produção atualize.
