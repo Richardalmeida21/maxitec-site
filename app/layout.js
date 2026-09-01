@@ -1,4 +1,5 @@
 import './globals.css';
+import './media-fix.css';
 
 export const metadata = {
   metadataBase: new URL('https://maxitec.net.br'),

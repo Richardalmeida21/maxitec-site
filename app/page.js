@@ -176,11 +176,11 @@ export default function Home() {
           </div>
           <div className="video-grid">
             <article className="video-card">
-              <video controls playsInline preload="none" poster="/media/img_1918-poster.webp"><source src="/media/img_1918.mp4" type="video/mp4" /></video>
+              <Image src="/media/img_1918-poster.webp" width={720} height={1280} alt="Equipamento Maxitec em operação" sizes="(max-width: 760px) 100vw, 50vw" />
               <div><span>INSPEÇÃO VISUAL</span><h3>Controle em produção</h3><p>Visualização de impressão em alta velocidade.</p></div>
             </article>
             <article className="video-card">
-              <video controls playsInline preload="none" poster="/media/img_0771-poster.webp"><source src="/media/img_0771.mp4" type="video/mp4" /></video>
+              <Image src="/media/img_0771-poster.webp" width={720} height={1280} alt="Aplicação industrial da tecnologia Maxitec" sizes="(max-width: 760px) 100vw, 50vw" />
               <div><span>APLICAÇÃO INDUSTRIAL</span><h3>Tecnologia no processo</h3><p>Equipamentos desenvolvidos para a rotina da indústria.</p></div>
             </article>
           </div>

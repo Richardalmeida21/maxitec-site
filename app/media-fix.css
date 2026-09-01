@@ -1,0 +1,11 @@
+.video-card > img {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  display: block;
+  background: #02070a;
+}
+
+@media (max-width: 760px) {
+  .video-card > img { aspect-ratio: 4 / 3; }
+}
