@@ -1,5 +1,6 @@
 import './globals.css';
 import './brand-fix.css';
+import FooterEnhancer from './FooterEnhancer';
 
 export const metadata = {
   metadataBase: new URL('https://maxitec.net.br'),
@@ -27,7 +28,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="pt-BR">
-      <body>{children}</body>
+      <body>
+        {children}
+        <FooterEnhancer />
+      </body>
     </html>
   );
 }
