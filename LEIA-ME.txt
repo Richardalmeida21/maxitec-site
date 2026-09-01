@@ -1,0 +1,17 @@
+MAXITEC — mídias otimizadas para o site
+
+Envie estes arquivos para:
+public/media/
+
+Substitua os arquivos de imagem existentes e adicione os três MP4.
+
+Os nomes já correspondem exatamente aos caminhos usados pelo site:
+- logo-maxitec.webp
+- maxivision-digital.webp
+- 20-anos.webp
+- img_0771.mp4
+- img_1918.mp4
+- img_3192.mp4
+
+As imagens foram geradas a partir dos arquivos originais enviados.
+Os vídeos são trechos reais, em H.264, 720p vertical e prontos para reprodução web.
