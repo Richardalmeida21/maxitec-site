@@ -1,0 +1,8 @@
+MAXITEC — VIDEOS 1080p HQ
+
+Substitua estes 3 arquivos em public/media/:
+- img_0771.mp4
+- img_1918.mp4
+- img_3192.mp4
+
+Eles foram recodificados diretamente dos MOV originais enviados, em 1080x1920, H.264, 6 segundos, com bitrate alto para manter nitidez no hero e nas demonstracoes.
