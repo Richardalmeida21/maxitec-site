@@ -131,8 +131,8 @@ export default function Home() {
 
       <section className="operation" id="operacao">
         <div className="operation-head">
-          <div><span className="kicker light">SEM MOCKUP. SEM RENDER.</span><h2>É assim que a<br/>Maxitec trabalha<br/><em>na prática.</em></h2></div>
-          <p>Os vídeos abaixo são registros reais enviados pela Maxitec. Veja a linha em movimento e entenda por que inspeção visual precisa acontecer durante a produção.</p>
+          <div><span className="kicker light">SEM MOCKUP. SEM RENDER.</span><h2>Veja o erro<br/><em>antes que ele vire prejuízo.</em></h2></div>
+          <p>Confira abaixo registros reais do Maxivision Digital em operação e entenda por que inspeção visual precisa acontecer durante a produção.</p>
         </div>
 
         <div className="video-wall">
