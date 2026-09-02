@@ -30,6 +30,9 @@ function enhanceSocialLink(link, type) {
 
 export default function FooterEnhancer() {
   useEffect(() => {
+    const heroEmphasis = document.querySelector('.hero h1 em');
+    if (heroEmphasis) heroEmphasis.textContent = 'antes do prejuízo.';
+
     const footer = document.querySelector('footer');
     if (!footer) return;
 
