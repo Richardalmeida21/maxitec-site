@@ -14,10 +14,6 @@ function WhatsApp({ size = 19 }) {
   return <svg width={size} height={size} viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20.5 11.7a8.4 8.4 0 0 1-12.4 7.4L3.5 20.5l1.5-4.4a8.4 8.4 0 1 1 15.5-4.4Z" stroke="currentColor" strokeWidth="1.8"/><path d="M8.4 7.7c.2-.5.5-.5.8-.5h.5c.2 0 .4 0 .6.5l.8 1.9c.1.3.1.5-.1.8l-.6.8c-.2.2-.3.4-.1.7.5.9 1.1 1.7 1.9 2.3.8.6 1.7 1.1 2.7 1.4.3.1.5 0 .7-.2l.9-1.1c.2-.3.5-.3.8-.2l1.9.9c.3.1.5.2.6.4.1.2.1 1-.2 1.7-.3.8-1.5 1.5-2.1 1.6-.6.1-1.4.2-4.7-1.2-3.9-1.7-6.4-5.8-6.6-6-.2-.3-1.6-2.1-1.6-4 0-.9.3-1.4.5-1.8Z" fill="currentColor" opacity=".95" transform="scale(.72) translate(4.7 4.2)"/></svg>;
 }
 
-function MaxitecMark() {
-  return <span className="x-mark" aria-hidden="true"><i/><i/></span>;
-}
-
 function LeadForm() {
   const [form, setForm] = useState({ nome: '', empresa: '', segmento: '', necessidade: '' });
   const onSubmit = (e) => {
@@ -61,7 +57,7 @@ export default function Home() {
       <section className="hero" id="inicio">
         <div className="hero-copy">
           <div className="hero-index"><span>MAXITEC / 2006—2026</span><b>20 ANOS DE ENGENHARIA APLICADA À IMPRESSÃO</b></div>
-          <h1>Veja a impressão<br/><em>antes do erro.</em></h1>
+          <h1>Enxergue o erro<br/><em>antes que ele custe caro.</em></h1>
           <p>Controle e inspeção industrial para quem não pode descobrir uma falha só no fim da bobina.</p>
           <div className="hero-actions">
             <a className="cta cta-green" target="_blank" rel="noreferrer" href={whatsappUrl(generalMessage)}><WhatsApp/> Quero falar sobre minha máquina <Arrow/></a>
@@ -83,7 +79,6 @@ export default function Home() {
           <div className="media-code">MX / INSPECTION / 001</div>
           <div className="scan-line"/>
         </div>
-        <div className="hero-x"><MaxitecMark/></div>
       </section>
 
       <div className="ticker" aria-hidden="true">
@@ -131,7 +126,7 @@ export default function Home() {
 
       <section className="operation" id="operacao">
         <div className="operation-head">
-          <div><span className="kicker light">SEM MOCKUP. SEM RENDER.</span><h2>Enxergue o problema<br/><em>antes que ele custe caro.</em></h2></div>
+          <div><span className="kicker light">SEM MOCKUP. SEM RENDER.</span><h2>Veja o erro<br/><em>antes que ele vire prejuízo.</em></h2></div>
           <p>Confira abaixo registros reais do Maxivision Digital em operação e entenda por que inspeção visual precisa acontecer durante a produção.</p>
         </div>
 
