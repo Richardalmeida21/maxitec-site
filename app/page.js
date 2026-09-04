@@ -131,7 +131,7 @@ export default function Home() {
 
       <section className="operation" id="operacao">
         <div className="operation-head">
-          <div><span className="kicker light">SEM MOCKUP. SEM RENDER.</span><h2>Veja o erro<br/><em>antes que ele vire prejuízo.</em></h2></div>
+          <div><span className="kicker light">SEM MOCKUP. SEM RENDER.</span><h2>Enxergue o problema<br/><em>antes que ele custe caro.</em></h2></div>
           <p>Confira abaixo registros reais do Maxivision Digital em operação e entenda por que inspeção visual precisa acontecer durante a produção.</p>
         </div>
 
