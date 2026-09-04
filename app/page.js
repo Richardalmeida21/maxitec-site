@@ -165,7 +165,7 @@ export default function Home() {
           <a className="text-action dark" target="_blank" rel="noreferrer" href={whatsappUrl('Olá, Maxitec. Quero conhecer melhor a empresa e as soluções disponíveis para meu processo de impressão.')}>CONHECER A SOLUÇÃO CERTA PARA MIM <Arrow/></a>
         </div>
         <div className="legacy-map">
-          <Image src="/media/20-anos.webp" width={900} height={1270} alt="20 anos Maxitec - presença nacional e internacional" sizes="(max-width: 900px) 100vw, 48vw"/>
+          <Image src="/media/IMG_3275.PNG" width={900} height={1270} alt="20 anos Maxitec - presença nacional e internacional" sizes="(max-width: 900px) 100vw, 48vw"/>
         </div>
       </section>
 
